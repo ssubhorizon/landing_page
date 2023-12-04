@@ -1,9 +1,19 @@
 <html>
     <head>
         <title>S2S Conversion Tracking</title>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11432962376">
+        </script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-11432962376');
+        </script>
     </head>
     <body>
         <h3>Landing page for testing the S2S Integrations</h3>
         <h4>UUID is {{ uuid }}</h4>
+        <h5>Other params: {{ other_params }}</h5>
     </body>
 </html>
